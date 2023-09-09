@@ -1,3 +1,25 @@
+Package: apt7-lib
+Version: 0.7.25.3-16
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1660
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
+Conflicts: apt7-ssl
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Provides: apt7-ssl
+Filename: debs/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+Size: 501632
+MD5sum: baf52572e47b8906dc5bd48896206f7d
+SHA1: 53b802b2cc0c9ca8f3599c9ffa81a0c11b35bb59
+SHA256: dc31276fb9c912c0b731f69abc49d29f5489bfc1f002a03014ca3d055183c985
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
+
 Package: com.g1lbertJB.untether
 Version: 1.0
 Architecture: iphoneos-arm
@@ -15,4 +37,44 @@ Homepage: https://g1lbert.github.io
 Description: Dummy package to enable efficient distribution of g1lbertJB updates over-the-air.
 Author: San Antonio Detective Unit
 Name: g1lbertJB Untether
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: debs/com.saurik.substrate.safemode_0.9.4000_fix_iphoneos-arm.deb
+Size: 13276
+MD5sum: e1c4a09f1818fa553491a46e51d0224b
+SHA1: 057103dff5d0fe918a0e20c942ccf7390e7468ee
+SHA256: 5a703a6ba87f891e3645dda487d27e3d3b5576f53bcde0537d77e6157cccd6f3
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
+Package: mobilesubstrate
+Version: 0.9.7113
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Filename: debs/mobilesubstrate_fix_0.9.5101_iphoneos-arm.deb
+Size: 113070
+MD5sum: d9ac8d34772120b96e53a2bad337cd9a
+SHA1: 96499c8a65c48a09b3923c37e26c40b1adc0bfc6
+SHA256: 10d0f0db860967b835201377cde917cdc7bfc54cdb18bd48c9217bdf1b3071e3
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
 
