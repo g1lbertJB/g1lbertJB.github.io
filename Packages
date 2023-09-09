@@ -6,13 +6,13 @@ Depends: firmware (>= 4.0), firmware (<= 5.1.1)
 Conflicts: com.chronic-dev.greenpois0n.corona, com.chronic-dev.greenpois0n.rocky-racoon
 Provides: com.g1lbertJB.untether
 Filename: debs/g1lbertJB.deb
-Size: 1452
-MD5sum: c8c981aba43f89a61b68c8b7ec949edd
-SHA1: af5dd46ea6337cd4a7b9f02b8663f133a835532a
-SHA256: 896355457eb12fe39a20a8ae908810a84574c0b26c6ad1e7a9b49e63683e2126
+Size: 1672
+MD5sum: d5ab8d92a67825b076332d6f5dacf3bb
+SHA1: aaee5c11b7966962ca39379332b49abd132858ee
+SHA256: f57df7c7a597da8ca886f484a404634dcc365d3881436b17fdf16a160d52fffc
 Section: System
 Homepage: https://g1lbert.github.io
 Description: Dummy package to enable efficient distribution of g1lbertJB updates over-the-air.
 Author: San Antonio Detective Unit
-Name: AppSync Unified
+Name: g1lbertJB Untether
 
