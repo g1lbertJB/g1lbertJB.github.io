@@ -1,8 +1,8 @@
-Origin: g1lbertJB
-Label: g1lbertJB
+Origin: g1lbertJB System Repo
+Label: g1lbertJB System Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: g1lbertJB bootstrap repo for core packages and updated
+Description: g1lbertJB bootstrap repo for core packages and updates
