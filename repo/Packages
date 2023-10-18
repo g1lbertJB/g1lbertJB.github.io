@@ -21,19 +21,19 @@ Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
 Package: com.g1lbertJB.untether
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: San Antonio Detective Unit
-Depends: firmware (>= 4.0), firmware (<= 5.1.1)
+Depends: firmware (>= 4.2.5), firmware (<= 5.1.1)
 Conflicts: com.chronic-dev.greenpois0n.corona, com.chronic-dev.greenpois0n.rocky-racoon
 Provides: com.g1lbertJB.untether
 Filename: debs/g1lbertJB.deb
-Size: 926
-MD5sum: d623ad77b4bc4511e8a07d6152f4754f
-SHA1: 20e3f453eee03b4d247f537a2ff9b0b8bf206c62
-SHA256: 8b5b1e03849d21f9713eaf549ac7062e65030f5c976e1fe4d38e1c39181f43a6
+Size: 1226
+MD5sum: 4c5d033c78a67b1087f081dcc2c42723
+SHA1: 0f01c9d737309aed30c2647757f237410e549466
+SHA256: 4a67655b6b18b20b06639a4104df7f00f2f9d1a8974d19a4aa4816c1b94c5f4b
 Section: System
-Homepage: https://g1lbert.github.io
+Homepage: https://github.com/g1lbertJB/g1lbertJB
 Description: Dummy package to enable efficient distribution of g1lbertJB updates over-the-air.
 Author: San Antonio Detective Unit
 Name: g1lbertJB Untether
